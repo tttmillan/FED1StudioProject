@@ -68,10 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Classes.html" />
+    <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="index.html" />
+    <Content Include="Resources\downloads\index.html" />
     <Content Include="StyleSheets\nameit.css" />
-    <Content Include="Team.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
