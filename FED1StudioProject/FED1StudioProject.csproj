@@ -71,8 +71,8 @@
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="index.html" />
-    <Content Include="Resources\downloads\index.html" />
-    <Content Include="StyleSheets\nameit.css" />
+    <Content Include="resources\downloads\index.html" />
+    <Content Include="stylesheet\custom.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -88,8 +88,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
-    <Folder Include="Scripts\" />
+    <Folder Include="images\" />
+    <Folder Include="script\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
