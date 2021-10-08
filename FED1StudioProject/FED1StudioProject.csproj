@@ -32,6 +32,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -67,7 +68,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Classes - Copy.html" />
     <Content Include="Classes.html" />
+    <Content Include="Contact - Copy.html" />
+    <Content Include="css_topocs\leaderShip.html" />
+    <Content Include="css_topocs\sales.html" />
+    <Content Include="css_topocs\administration.html" />
+    <Content Include="css_topocs\instructors.html" />
+    <Content Include="favicon.ico" />
+    <Content Include="images\About.png" />
+    <Content Include="images\Advance.jpg" />
+    <Content Include="images\banner.png" />
+    <Content Include="images\banner1.png" />
+    <Content Include="images\banner7.png" />
+    <Content Include="images\banner8.png" />
+    <Content Include="images\bannerk.png" />
+    <Content Include="images\bannerk4.png" />
+    <Content Include="images\bannerk5.png" />
+    <Content Include="images\basic.jpeg" />
+    <Content Include="images\bullet_point_image_teal.png" />
+    <Content Include="images\Ducktails coin .png" />
+    <Content Include="images\empower.png" />
+    <Content Include="images\intermediate.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\maybe.png" />
+    <Content Include="images\money.png" />
+    <Content Include="images\newyork.png" />
+    <Content Include="images\opneminded.png" />
+    <Content Include="images\start.png" />
+    <Content Include="images\The_Money_Bin_by_vikung_fu1.jpg" />
+    <Content Include="index - Copy.html" />
+    <Content Include="js\nav.js" />
+    <Content Include="stylesheet\custom - Copy.css" />
+    <Content Include="Team - Copy.html" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="index.html" />
@@ -88,7 +121,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
     <Folder Include="script\" />
   </ItemGroup>
   <PropertyGroup>
