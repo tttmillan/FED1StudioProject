@@ -68,45 +68,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Classes - Copy.html" />
+    <Content Include="images\AlexanderWalker.png" />
+    <Content Include="images\Budgeting.png" />
+    <Content Include="images\CarlBalke.png" />
+    <Content Include="images\Checking.png" />
+    <Content Include="images\CollegeCost.png" />
+    <Content Include="images\JulianaHartman.png" />
+    <Content Include="images\KrystalDowell.png" />
+    <Content Include="images\Savings.png" />
+    <Content Include="images\TypesOfCredit1.png" />
+    <Content Include="images\TypesOfInsurance.png" />
+    <Content Include="images\WilliamStafford.png" />
     <Content Include="Classes.html" />
-    <Content Include="Contact - Copy.html" />
+    <Content Include="stylesheet\layout.css" />
     <Content Include="css_topocs\leaderShip.html" />
     <Content Include="css_topocs\sales.html" />
     <Content Include="css_topocs\administration.html" />
     <Content Include="css_topocs\instructors.html" />
     <Content Include="favicon.ico" />
-    <Content Include="images\About.png" />
-    <Content Include="images\Advance.jpg" />
-    <Content Include="images\banner.png" />
     <Content Include="images\banner1.png" />
-    <Content Include="images\banner7.png" />
-    <Content Include="images\banner8.png" />
-    <Content Include="images\bannerk.png" />
-    <Content Include="images\bannerk4.png" />
-    <Content Include="images\bannerk5.png" />
-    <Content Include="images\basic.jpeg" />
-    <Content Include="images\bullet_point_image_teal.png" />
     <Content Include="images\Ducktails coin .png" />
     <Content Include="images\empower.png" />
-    <Content Include="images\intermediate.jpg" />
     <Content Include="images\logo.png" />
-    <Content Include="images\maybe.png" />
     <Content Include="images\money.png" />
-    <Content Include="images\newyork.png" />
     <Content Include="images\opneminded.png" />
     <Content Include="images\start.png" />
-    <Content Include="images\The_Money_Bin_by_vikung_fu1.jpg" />
-    <Content Include="index - Copy.html" />
     <Content Include="js\nav.js" />
-    <Content Include="stylesheet\custom - Copy.css" />
-    <Content Include="Team - Copy.html" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="index.html" />
-    <Content Include="resources\downloads\index.html" />
     <Content Include="stylesheet\custom.css" />
     <Content Include="Web.config" />
+    <Content Include="_Archive\Classes.html" />
+    <Content Include="_Archive\Contact.html" />
+    <Content Include="_Archive\index.html" />
+    <Content Include="_Archive\Team.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -120,9 +116,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="script\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

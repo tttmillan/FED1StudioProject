@@ -1,363 +1,134 @@
 ﻿
 
-body {
-    background-color: darkblue;
-    background-image: url('../images/money.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-header {
-    background-image: url('../images/banner1.png');
-    background-size: cover;
-    background: radial-gradient();
-    background-position: center;
-    background-color: whitesmoke;
-    color: darkgreen;
-    height: 10em;
-    text-align: left center;
-}
-
-main {
-    background-color: whitesmoke;
-    background-size: contain;
-    padding-bottom: 2em;
-}
-
-h1 {
-    color: darkgreen;
-    font-size: 24px;
-    font-weight: bold;
-    font-family: Verdana;
-}
-
-h2 {
-    font-weight: bold;
-    font-size: 20px;
-    font-family: Verdana
-}
-
-h3 {
-    font-weight: 100;
-    font-size: 10px;
-    text-align: center;
-}
-
-footer {
-    height: 75px;
-    color: peachpuff;
-    font-style: italic;
-    background: darkgreen;
+/*#region Index */
+#chooseUs1 img {
+    float: left;
+    width: 47.5%;
+    height: 400px;
     border: solid;
-    margin: 0.5em;
-}
-/*#region navbar link styling*/
-nav a {
-    font-weight: bold;
-    color: peachpuff;
-    font-size: xx-large;
-    text-align: left;
+    margin: 2em;
 }
 
-    nav a:hover, nav a:active, nav a:focus {
-        text-decoration: none;
-    }
-
-nav ul {
-    background: darkgreen;
-    padding: 0;
-    margin: 0;
-    border: none;
-    height: 60px;
-}
-
-nav li:hover {
-    background-color: #80B8FF;
-}
-
-nav ul li {
-    display: inline-block;
-}
-
-    nav ul li a {
-        padding: .2em 2em;
-        display: block;
-    }
-
-
-/*#endregion*/
-
-/*#region vertical link blocks*/
-/*ul.blocklist {
-    background-color: teal;
-    padding: 0;
-}
-
-    ul.blocklist li {
-        list-style-type: none;
-        list-style-image: none;
-    }
-
-    ul.blocklist a {
-        color: rosybrown;
-        text-align: center;
-        padding: .5em;
-        display: block;
-    }
-
-        ul.blocklist a:hover {
-            background-color: darkblue;
-            color: lightblue;
-        }*/
-
-/*#endregion*/
-
-/*#region Images */
-#headerOverlay {
-    float: left;
-    background-repeat: no-repeat;
-    background-image: url('../images/logo.png');
-    background-size: 100px;
-    background-position: 3% center;
-    padding: 2em;
-    padding-left: 69px;
-    margin: 20px;
-    padding-top: 6em;
-}
-
-
-#contact {
-    font-size: 60px;
+#chooseUs1 h2 {
     text-align: center;
+    padding-top: 4em;
 }
 
-.clear {
-    clear: both;
-}
-
-
-.classItem {
-    margin: 5px;
-    border: 1px solid #ccc;
-    display: inline-block;
-    width: 200px;
-}
-
-div.classItem:hover {
-    border: 1px solid lightsalmon;
-}
-
-div.classItem img {
-    width: 200px;
-    height: 200px;
-}
-
-div.classItem a:hover {
-    background: #9FD952;
-}
-
-div.contactUs {
+#chooseUs1 p {
     text-align: left;
-    text-decoration-style: solid;
-    font-size: 30px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 400px;
+    margin-top: 5em;
 }
 
-
-#teamRightColumn {
+#chooseUs2 img {
     float: right;
-    width: 25%;
+    width: 47.5%;
+    height: 400px;
+    border: solid;
+    margin: 2em;
 }
 
-/*.mainWrapper {
-    background-color: whitesmoke;
-    float: left;
-    width: 73%;
-    padding: 1%;
-}*/
+#chooseUs2 h2 {
+    text-align: center;
+    padding-top: 4em;
+}
+
+#chooseUs2 p {
+    text-align: left;
+    margin-top: 5em;
+    padding-left: 4em;
+}
+/*#end region */
+
+/*#region Contact */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+/* Add a background color and some padding around the form */
+.container {
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/*#endregion */
+
+/*#region Team */
 
 .asideWrapperLeft {
     background-color: whitesmoke;
     background-size: contain;
     float: left;
-    width: 68%;
+    width: 65%;
     padding: 1%;
 }
 
 .asideWrapperRight {
-    background-color: darkgreen;
+    background-color: #0B7529;
     color: peachpuff;
     float: right;
-    min-height:100%;
+    min-height: 100%;
     width: 25%;
     height: 100%;
     border: solid peachpuff;
-    padding: 1%;
-    text-decoration:underline;
-}
-#asideHeader {
-    font;
+    padding: 0.5em;
+    text-decoration: underline;
 }
 
-#dc {
-    text-align: center
+
+div.headingStyle {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana;
+    padding-left: 1em;
+    padding-bottom: 1em;
 }
 
-#about {
-    text-align: left;
+#teamIntro {
+    font-size: 18px;
+    padding-left: 1em;
+    padding-bottom: 3em
 }
 
-div.img {
-    width: 275px;
-    height: 375px;
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
+div.teamMembers {
+    width: auto;
+}
+
+#team {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
     float: left;
+    padding: 2em;
 }
 
-    div.img img {
-        margin: 5px;
-    }
-
-div.desc {
-    text-align: left;
-    width: 120px;
-    margin: 5px;
+div.instructor {
+    font-weight: 600;
+    padding-top: 3em;
 }
-
-div.img:hover {
-    background: lightblue;
-}
-
-#teamLeftColumn {
-}
-
-aside ul li {
-    list-style-image: url(/images/bullet_point_image_teal.png);
-}
-
-
-
-
-
-/*#region Hamburger Menu Code */
-nav a.pull-right {
-    font-weight: bold;
-    color: peachpuff;
-    background: darkgreen;
-    padding: 5px;
-    text-decoration: none;
-    font-size: 1.5em;
-    display: none;
-    float:right;/*Added to float hamburger right*/
-}
-/*Below is a CSS media query that checks the size of the viewpoint and applies to the styling inside specific screen size. */
-@media screen and (max-width: 850px) {
-    nav ul#nav-list {
-        display: none;
-    }
-
-    nav a.pull-right {
-        display: inline-block;
-    }
-    /*.expanded is added to the #nav-list when the hambuger button is clicked. This CSS will 'expand' the menu.*/
-    nav ul#nav-list.expanded {
-        float:right;
-        clear: both;
-        display: block;
-        display:table;
-    }
-
-        nav ul#nav-list.expanded li {
-            display: block;
-        }
-
-            nav ul#nav-list.expanded li a {
-                display: block; /*This will make the clickable area for the a tag stretch the full width of the menu.*/
-                float: none;
-                text-align: center; /*centers the link in the menu*/
-                position: static;
-            }
-
-    nav li.dropdown ul.dropdown-menu {
-        width: 50%;
-        float: none;
-        margin: auto;
-        position: static;
-    }
-}
-
-/*#endregion */
-
-/*#region Admin Nav */
-/*Button Styling*/
-.button {
-    font-family: sans-serif;
-    background: rgba(0,0,0,.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    z-index: 1030;
-    width: 40px;
-    cursor: pointer;
-}
-
-.vertical-text {
-    position: absolute;
-    top: 45%;
-    left: 10px;
-    writing-mode: vertical-lr;
-    color: white;
-    font-weight: bold;
-}
-
-
-
-
-/*#region Menu */
-.navbar-brand {
-    padding: 19.5px, 45px;
-}
-
-.sidenav {
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(0,0,0,.9);
-    padding-top: 5em;
-    overflow-x: hidden;
-    transition: .5s;
-    width: 0;
-    z-index: 1030;
-}
-
-    .sidenav a {
-        display: block;
-        text-decoration: none;
-        font-size: 1.5em;
-        color: #818181;
-        transition: .5s;
-        padding: 8px;
-        text-align: center;
-    }
-
-        .sidenav a.close-btn {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            font-size: 3em;
-        }
-
-        .sidenav a:hover {
-            color: #f1f1f1;
-        }
-
-
-
 /*#endregion */
